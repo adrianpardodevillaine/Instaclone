@@ -1,0 +1,89 @@
+.post {
+  width: 550px;
+  margin: 30px 40px 50px 130px;
+}
+
+.postheader {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.postheaderAuthor {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-weight: bolder;
+}
+
+.postheaderAuthor > span {
+  color: grey;
+  font-size: 15px;
+}
+
+.postimage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.postimage img {
+  max-width: 100%;
+  height: auto;
+}
+
+.postimage > img {
+  width: 100%;
+  border-radius: 6px;
+  border: 0.6px solid rgba(128, 128, 128, 0.516);
+}
+
+.postfooter {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2px;
+}
+
+.postfooterIcons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.postIcon {
+  padding: 5px;
+  font-size: 30px;
+}
+
+.postIcon :hover {
+  cursor: pointer;
+}
+
+.postcommentForm {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-top: 0px solid #dbdbdb;
+}
+
+.postcommentForm input {
+  flex: 1;
+  border: none;
+  outline: none;
+}
+
+.postcommentForm button {
+  background-color: transparent;
+  color: #0095f6;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.button:active {
+  transform: scale(0.9);
+}

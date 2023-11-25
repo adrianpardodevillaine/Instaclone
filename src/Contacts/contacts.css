@@ -1,0 +1,43 @@
+
+
+.contacts {
+    margin: 0px auto;
+    max-width: 600px;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 10px;
+    background-color: black;
+    border: 2px solid white;
+}
+
+.contactContainer {
+    display: flex;
+    justify-content: space-around;
+}
+
+.contactDetails {
+    text-align: center;
+    margin: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+p {
+    margin: 5px 0;
+}
+
+
+
+
+  
+  
+
+
+
+  

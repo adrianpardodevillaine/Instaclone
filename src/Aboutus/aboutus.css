@@ -1,0 +1,51 @@
+.aboutUs {
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .aboutUs__story {
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .aboutUs__story:last-child {
+    margin-bottom: 0; /* Elimina el margen inferior para el último elemento */
+  }
+  
+  .aboutUs h1,
+  .aboutUs h2 {
+    margin-bottom: 15px; /* Increase separation from the boxed sections */
+  }
+  
+  .aboutUs p {
+    margin-bottom: 20px; /* Increase separation for the specific paragraph */
+    text-align: center;
+  }
+  
+  .aboutUs h1 + p {
+    margin-left: 10px;
+    margin-bottom: 90px; /* Margen a la izquierda solo para el párrafo después del h1 */
+  }
+  
+  .aboutUs .aboutUs__icon {
+    margin-right: 15px;
+    font-size: 40px;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
